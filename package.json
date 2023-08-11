@@ -1,0 +1,14 @@
+{
+  "name": "free-stay-challenge",
+  "version": "0.1.0",
+  "description": "Free Stay database challenge",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Douglas Modena",
+  "license": "MIT",
+  "devDependencies": {
+    "dbmate": "^2.5.0"
+  }
+}
