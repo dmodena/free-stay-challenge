@@ -1,4 +1,4 @@
-INSERT INTO dbo.stays_v1 values
+INSERT INTO dbo.stays_v1 VALUES
 ('a3a97187-30eb-48f9-9dff-d1d670495e65', '2023-05-16', FALSE),
 ('a3a97187-30eb-48f9-9dff-d1d670495e65', '2023-06-24', FALSE),
 ('a3a97187-30eb-48f9-9dff-d1d670495e65', '2023-01-18', FALSE),
