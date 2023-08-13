@@ -5,4 +5,4 @@ SELECT c.id AS customer_id,
     COALESCE((FLOOR(SUM(v.period_stays) / 5) - SUM(v.free_stays)), 0) AS balance
 FROM dbo.customers c
 LEFT JOIN dbo.stays_v2_summary v ON c.id = v.customer_id
-GROUP BY c.id, c.full_name;
+GROUP BY c.id;
